@@ -17,10 +17,13 @@ export default function App() {
         Here All of these my favourite movies you can watch to aquire some
         kowledge about given things.
       </p>
+      <hr/>
 
+<div className="btn-div">
       {Object.keys(Data).map((typ) => {
         return <button onClick={() => handleClick(typ)}>{typ}</button>;
       })}
+      </div>
 
       {Data[type].map((val) => {
         return (
@@ -31,7 +34,6 @@ export default function App() {
         );
       })}
 
-      <h5 style={{ marginTop: "120px", color: "gray" }}>worikin on style</h5>
     </div>
   );
 }
