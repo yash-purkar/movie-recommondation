@@ -4,6 +4,8 @@
   width: 600px;
   margin: auto;
   margin-top:90px;
+  border: 1px solid blueviolet;
+  border-radius: 1rem;
 }
 
 h1 {
