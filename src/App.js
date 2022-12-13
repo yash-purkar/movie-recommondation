@@ -17,23 +17,27 @@ export default function App() {
         Here All of these my favourite movies you can watch to aquire some
         kowledge about given things.
       </p>
-      <hr/>
+      <hr />
 
-<div className="btn-div">
-      {Object.keys(Data).map((typ) => {
-        return <button onClick={() => handleClick(typ)}>{typ}</button>;
-      })}
+      <div className="btn-div">
+        {Object.keys(Data).map((typ) => {
+          return <button onClick={() => handleClick(typ)}>{typ}</button>;
+        })}
       </div>
 
-      {Data[type].map((val) => {
-        return (
-          <ul>
-            <li>{val.heading}</li>
-            <li>{val.rating}</li>
-          </ul>
-        );
-      })}
+      <div className="ul-div">
 
+
+
+        {Data[type].map((val) => {
+          return (
+            <ul>
+              <li>{val.heading}</li>
+              <li>{val.rating}</li>
+            </ul>
+          );
+        })}
+      </div>
     </div>
   );
 }
