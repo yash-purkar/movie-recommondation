@@ -3,8 +3,7 @@ import Data from "./Data";
 import { useState } from "react";
 
 export default function App() {
-  const [type, setType] = useState("History");
-  //
+  const [type, setType] = useState("StockMarket");
 
   function handleClick(typ) {
     setType(typ);

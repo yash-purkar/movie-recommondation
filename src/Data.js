@@ -1,22 +1,4 @@
 const data = {
-  History: [
-    {
-      heading: "Sher Shivraj",
-      rating: "8.4/10"
-    },
-    {
-      heading: "Har Har Mahadev",
-      rating: "8.1/10"
-    },
-    {
-      heading: "Tanhaji",
-      rating: "7.5/10"
-    },
-    {
-      heading: "Farzand",
-      rating: "8.4"
-    }
-  ],
   StockMarket: [
     {
       heading: "Wall Street",
@@ -35,6 +17,24 @@ const data = {
       rating: "7.0/10"
     },
 
+  ],
+  History: [
+    {
+      heading: "Sher Shivraj",
+      rating: "8.4/10"
+    },
+    {
+      heading: "Har Har Mahadev",
+      rating: "8.1/10"
+    },
+    {
+      heading: "Tanhaji",
+      rating: "7.5/10"
+    },
+    {
+      heading: "Farzand",
+      rating: "8.4"
+    }
   ],
 
   Cricket: [
